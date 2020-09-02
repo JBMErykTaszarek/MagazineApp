@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace Mag
@@ -7,8 +8,8 @@ namespace Mag
     {
         static void Main(string[] args)
         {
-           
-            
+
+
             foreach (var item in listOfAllBooks)
             {
                 Console.WriteLine(item.title);
