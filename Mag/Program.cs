@@ -12,6 +12,7 @@ namespace Mag
 
             foreach (var item in listOfAllBooks)
             {
+                //zmiana
                 Console.WriteLine(item.title);
                 Console.WriteLine(item.author);
                 Console.WriteLine(item.pages);
