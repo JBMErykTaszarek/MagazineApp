@@ -10,8 +10,9 @@ namespace Mag
         public int id { get; set; }
         public Mattress(string name, int price, int hardness) : base( name, price)
         {
-            this.id = Thing.id;
+            this.id = Thing.cid;
             this.name = name;
+            Hardness = hardness;
         }
         public int Hardness
         {
